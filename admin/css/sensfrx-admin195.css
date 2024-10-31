@@ -1,0 +1,991 @@
+/**
+
+ * All of the CSS for your admin-specific functionality should be
+
+ * included in this file.
+
+ */
+
+#sensfrxPortletSettings .widefat {
+	border: 0;
+}
+
+#sensfrxPortletSettings .ats-portlet {
+	margin: 15px 0 15px 15px;
+}
+
+#sensfrxPortletSettings .ats-portlet-title {
+	cursor: pointer;
+	font-size: 16px;
+	margin: 0;
+	padding: 12px 15px;
+}
+
+#sensfrxPortletSettings .widefat th {
+	width: 25%;
+	vertical-align: top;
+}
+
+#sensfrxPortletSettings .widefat td {
+	vertical-align: top;
+}
+
+#sensfrxPortletSettings .ats-radio-inputs {
+	margin-bottom: 7px;
+}
+
+/* General Page */
+
+#sensfrxPluginDashboard .sensfrx-logo {
+	padding: 20px 20px 20px 0;
+	max-width: 200px;
+}
+#sensfrxPluginDashboard .sensfrx-logo img {
+	max-width: 100%;
+}
+
+#sensfrxPluginDashboard .sensfrx-tabs-head {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 10px;
+}
+#sensfrxPluginDashboard .sensfrx-tabs-title {
+	color: #0073aa;
+    margin: 0;
+    padding: 0;
+    line-height: 35px;
+    text-transform: uppercase;
+}
+#sensfrxPluginDashboard .sensfrx-css-123-tabtab-content {
+	margin-top: -1px;
+}
+
+#sensfrxPluginDashboard .sensfrx_form-container {
+	padding: 20px;
+	border: 1px solid #ccc;
+	border-radius: 0;
+	background-color: #ffffff;
+	/*position: relative;
+	z-index: -1;*/
+}
+
+#sensfrxPluginDashboard .sensfrx_transaction_review_th {
+	background-color: #1D2327;
+	color: #ffffff;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	position: sticky;
+	top: 0;
+	z-index: 1;
+}
+
+#sensfrxPluginDashboard .sensfrx_transaction_review_th input[type="checkbox"] {
+	margin: 0;
+}
+
+#sensfrxPluginDashboard .sensfrx-tables-1 {
+	width: 100%;
+	border-collapse: collapse;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	margin: 0 0 10px 0;
+	font-size: 16px;
+	text-align: left;
+}
+
+#sensfrxPluginDashboard .sensfrx-tables-1 th {
+	background-color: #1D2327;
+	color: #ffffff;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	position: sticky;
+	top: 0;
+	z-index: 1;
+}
+
+#sensfrxPluginDashboard .sensfrx-tables-1 th, #sensfrxPluginDashboard .sensfrx-tables-1 td {
+	border-bottom: 1px solid #ddd;
+	padding: 8px 12px;
+}
+
+#sensfrxPluginDashboard .sensfrx-tables-1 tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+.sensfrx_form-container h2 {
+	margin-top: 0;
+}
+
+.sensfrx_box-container {
+	display: flex;
+	justify-content: space-between;
+	margin: 20px;
+}
+
+.sensfrx_as1-stat-wrap {
+	padding: 10px 20px;
+	width: 23%;
+	text-align: center;
+	box-sizing: border-box;
+}
+/*.sensfrx_as1-stat-wrap .sensfrx_as1-stat-total, .sensfrx_as1-stat-wrap .sensfrx_as1-stat-txt {
+	color: #ffffff;
+}*/
+
+.sensfrx_as1-stat-wrap-total {
+    background-color: #f5f5f5; /* No background color */
+    color: #246cf2; /* Darker Gray text color for readability */
+    border: 1px solid #d1d1d1; /* Lighter border */
+    padding: 10px; /* Added padding for better spacing */
+}
+
+.sensfrx_as1-stat-wrap-allowed {
+    background-color: #f5f5f5; /* No background color */
+    color: #4caf50; /* Dark Green text color */
+    border: 1px solid #d1d1d1; /* Lighter border */
+    padding: 10px; /* Added padding */
+}
+
+.sensfrx_as1-stat-wrap-reviewed {
+    background-color: #f5f5f5; /* No background color */
+    color: #fe9802; /* Gold text color */
+    border: 1px solid #d1d1d1; /* Lighter border */
+    padding: 10px; /* Added padding */
+}
+
+.sensfrx_as1-stat-wrap-denied {
+    background-color: #f5f5f5; /* No background color */
+    color: #b71c1c; /* Dark Red text color */
+    border: 1px solid #d1d1d1; /* Lighter border */
+    padding: 10px; /* Added padding */
+}
+
+.sensfrx_form-tab-title {
+	font-size: 18px; 
+	font-weight: bold;
+	color: #333333; 
+	text-align: center;
+	text-transform: uppercase;
+}
+
+/* Apply a media query for smaller screens */
+@media (max-width: 768px) {
+	.sensfrx_as1-stat-wrap {
+		width: 18%;
+	}
+}
+/* Apply another media query for even smaller screens */
+@media (max-width: 480px) {
+	.sensfrx_as1-stat-wrap {
+		width: 12%;
+	}
+}
+
+.sensfrx_as1-stat-no {
+	font-size: 24px;
+	font-weight: bold;
+}
+/*.sensfrx_as1-stat-total {
+	color: #007bff;
+}*/
+.asensfrx_s1-stat-gs {
+	margin-top: 10px;
+}
+.sensfrx_as1-stat-graph {
+	color: #4caf50;
+}
+.sensfrx_as1-stat-gnum {
+	color: #4caf50;
+	font-weight: bold;
+}
+
+#sensfrx_date_dashboard {
+	width: 180px;  
+	height: 35px; 
+	font-size: 16px; 
+	border: 2px solid #3498db; 
+	border-radius: 4px; 
+	background-color: #f2f2f2; 
+	color: #333; 
+	/*position: absolute; 
+	top: 25px; right: 30px;*/
+}
+
+#addPlusAndColorIfNecessary {
+	color: red;
+}
+
+.sensfrx_form-container-1 {
+	border: 1px solid #d1d1d1; 
+	padding: 2px; 
+	/* border-radius: 5px; */
+}
+
+#sensfrx_form-container-3 {
+	border-bottom: 2px solid transparent;
+}
+
+.sensfrx_as1-stat-txt {
+	margin-top: 10px;
+}
+
+.sensfrx_comparisonResult {
+	float: right; 
+	opacity: 0.7; 
+	font-size: 16px; 
+	border-bottom: 2px solid transparent;
+}
+
+/* Common */
+
+.sensfrx_form-container {
+	padding: 20px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	background-color: #f9f9f9;
+}
+
+.sensfrx_woocommerce-mandatory-message {
+	background-color: #ffe6e6; /* Light red background */
+	color: #ff0000; /* Red text */
+	padding: 20px; /* Increased padding for more height */
+	margin-top: 10px;
+	border: 1px solid #ff9999; /* Light red border */
+	border-radius: 5px; /* Rounded corners */
+	display: flex; /* Use flexbox */
+	justify-content: center;
+	align-items: center; /* Vertically center align text */
+	height: 45vh;
+}
+
+.sensfrx_woocommerce-mandatory-message p {
+	font-weight: bold; /* Make the text bold */
+	margin: 0; /* Remove default margin */
+}
+
+.sensfrx_form-container-auth {
+	width: 100%; 
+	height: 65vh; 
+	display: flex; 
+	flex-direction: column; 
+	justify-content: center; 
+	align-items: center; 
+	text-align: center;
+}
+
+.sensfrx_form-container-auth-font {
+	font-size: 2em;
+}
+
+.sensfrx_hide_button {
+	display: none;
+}
+
+/* License */
+
+.sensfrx_license_table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+.sensfrx_license_table td,
+.sensfrx_license_table th {
+	border: 1px solid #dddddd;
+	text-align: left;
+	padding: 8px;
+}
+
+.sensfrx_license_table th {
+	background-color: #f2f2f2;
+}
+
+
+
+.sensfrx-subscription-container {
+	margin: 20px auto;
+	background-color: #f9f9f9;
+	padding: 20px;
+	border: 1px solid #dddddd;
+	border-radius: 5px;   
+}
+.sensfrx-subscription-container h2 {
+	margin-top: 0;
+}
+
+/* Validation Rules */
+
+.sensfrx_validation_rules_table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+.sensfrx_validation_rules_table th,
+.sensfrx_validation_rules_table td {
+	border: 1px solid #dddddd;
+	text-align: left;
+	padding: 8px;
+}
+
+.sensfrx_validation_rules_table th {
+	background-color: #f2f2f2;
+}
+
+/* Container styling */
+.sensfrx_settings-container {
+	background-color: #f9f9f9;
+	margin: 20px auto;
+	padding: 20px;
+	border: 1px solid #dddddd;
+	border-radius: 5px;
+}
+/* Remove margin for h2 */
+.sensfrx_settings-container h2 {
+	margin-top: 0;
+}
+
+.sensfrx-validation-rules-save-button {
+	display: block;
+	margin-top: 20px;
+	padding: 10px;
+	background-color: #4169e1;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	width: 160px;
+}
+
+
+.sensfrx_myAlert_notification_success {
+	width: 30%; 
+	position: absolute; 
+	top: 132px; 
+	right: 45px; 
+	background-color: #45a049; 
+	color: white; 
+	padding: 10px; 
+	text-align: center;
+}
+
+.sensfrx_myAlert_notification_failed {
+	width: 30%; 
+	position: absolute; 
+	top: 132px; 
+	right: 45px; 
+	background-color: #DC143C; 
+	color: white; 
+	padding: 10px; 
+	text-align: center;
+}
+
+/* Policy Page */
+
+.sensfrx_policy_tab_heading {
+	color: #0073aa;
+	border-bottom: 2px solid #0073aa;
+	padding-bottom: 5px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.sensfrx_policy_settings-container {
+	background-color: #f9f9f9;
+	margin: 20px auto;
+	padding: 10px;
+	border: 1px solid #dddddd;
+	border-radius: 5px;
+}
+
+.sensfrx_policy_save-button {
+	display: block;
+	margin-top: 20px;
+	padding: 10px;
+	background-color: #4169e1;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	width: 160px;
+}
+
+.sensfrx-button-container {
+	display: flex;
+	width: 100%;
+}
+
+.sensfrx_policy_tab_btn {
+	flex-grow: 1;
+	margin-right: 5px;
+	margin-top: 0;  
+	font-size: 16px;
+	display: block;
+	font-family: 'Poppins';
+	padding: 10px;
+	background-color: #4169e1;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	width: 160px;
+}
+
+#sensfrx_policy_webhook_heading {
+	text-align: center; 
+	margin-left: -5px; 
+}
+
+#sensfrx_policy_ato_heading {
+	text-align: center; 
+	margin-left: -5px; 
+	margin-top: -10px;
+}
+
+.sensfrx_policy_ato_allow {
+	border: none; 
+	background-color: transparent;
+}
+
+.sensfrx_policy_ato_allow_heading {
+	border: none; 
+	background-color: transparent;
+}
+
+.sensfrx_webhook_information {
+	margin-left: 8px;
+	margin-right: 8px;
+}
+
+#sensfrx_policy_webhook_update {
+	margin-left: 8px;
+}
+
+#sensfrx_policy_th_apply {
+	padding: 10px;
+	text-align: left;
+}
+
+#sensfrx_policy_th_apply_webhook {
+	/* padding: 10px;
+	text-align: left; */
+	margin-left: 8px;
+}
+
+/* Profile Page */
+
+.sensfrx_profile_container {
+	margin: 20px auto;
+	background-color: #f9f9f9;
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+	border-radius: 8px;
+	padding: 20px;
+}
+
+.sensfrx_profile_container h2 {
+	margin-top: 0;
+}
+
+.sensfrx_profile_table {
+	width: 100%;
+	border-collapse: collapse;
+	margin-bottom: 20px;
+}
+.sensfrx_profile_table th, 
+.sensfrx_profile_table td {
+	padding: 10px;
+	text-align: left;
+	border-bottom: 1px solid #ddd;
+}
+
+.sensfrx_profile_table th {
+	background-color: #f2f2f2;
+	font-weight: bold;
+}
+
+.sensfrx_profile_edit-button {
+	background-color: #4169e1;
+	color: #fff;
+	padding: 10px 15px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 14px;
+}
+
+.edit-sensfrx_form-container {
+	display: none;
+	margin-top: 20px;
+}
+
+.sensfrx_profile_edit-form {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+	border: 1px solid #3498db;
+	border-radius: 10px;
+	background-color: #f0f0f0;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.sensfrx_profile_submit-button, 
+.sensfrx_profile_cancel-button {
+	background-color: #4169e1;
+	color: white;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	cursor: pointer;
+	width: 120px;
+	margin-top: 10px;
+}
+
+.sensfrx_profile_table_input_bc {
+	color: #279EFF;
+}
+
+.sensfrx_profile_update_info_heading {
+	position: relative; 
+	display: inline-block;
+}
+
+.sensfrx_profile_edit_form_inputs {
+	width: 100%; 
+	padding: 8px; 
+	margin: 8px; 
+	border: 1px solid #ccc; 
+	border-radius: 5px;
+}
+
+#sensfrx_profile_gender_timezone {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.sensfrx_profile_error-message {
+	color: red; 
+	display: none;
+}
+
+/* Privacy Page */
+
+.sensfrx-settings-container-account-privacy {
+	background-color: #f9f9f9;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	padding: 20px;
+	margin: 20px auto;
+}
+
+.sensfrx-settings-container-account-privacy h2 {
+	margin-top: 0;
+}
+
+.sensfrx_terms-label {
+	font-style: italic;
+	color: #555;
+}
+
+.sensfrx_email_label_privacy_page {
+	display: block;
+	margin-bottom: 10px;
+}
+
+.sensfrx_privacy_statement {
+	margin-top: 20px;
+	font-weight: bold;
+	color: #0073aa;
+}
+
+.sensfrx_privacy_save_button {
+	display: block;
+	margin-top: 20px;
+	padding: 10px;
+	background-color: #4169e1;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	width: 160px;
+}
+
+.sensfrx_tab_heading {
+	color: #0073aa;
+	border-bottom: 2px solid #0073aa;
+	padding-bottom: 5px;
+	margin-bottom: 10px;
+}
+
+.sensfrx_tab_heading_new_activity_sensfrx-whitelist-tab-content-2 {
+	color: #0073aa;
+	border-bottom: 2px solid #0073aa;
+	padding-bottom: 5px;
+	margin-bottom: -10px;
+}
+
+.sensfrx_privacy_email_input {
+	width: 36%;
+}
+
+.sensfrx_privacy_error-message {
+	color: red; 
+	display: none;
+}
+
+.sensfrx_image_integration_page {
+	font-family: sans-serif; 
+	font-size: 10px; 
+	font-weight: normal; 
+	margin: 0; 
+	Margin-bottom: -25px; 
+	color: #999999;
+}
+
+#sensfrx_image_logo_integration {
+	height: 5em; 
+	width: 280px; 
+	margin-top: 10px; 
+	margin-left: -20px; 
+	margin-bottom: 10px; 
+}
+
+/* Notification Page */
+
+.sensfrx_notification_select,
+.sensfrx_notification_input {
+	width: 100%;
+	padding: 8px;
+	margin-bottom: 15px;
+	box-sizing: border-box;
+}
+
+#sensfrx_notification_save_button {
+	display: block;
+	margin-top: 20px;
+	padding: 10px;
+	background-color: #4169e1;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	width: 160px;
+}
+
+.sensfrx_notification_settings-container {
+	margin: 20px auto;
+	background-color: #f9f9f9;
+	padding: 20px;
+	border: 1px solid #dddddd;
+	border-radius: 5px;
+}
+
+.sensfrx_notification_settings-container h2 {
+	margin-top: 0;
+}
+
+.sensfrx_notification_email_input_width {
+	width: 36%;
+}
+
+/* Woo Sensfrx Tab */
+
+.sensfrx_tab_nav-tab-wrapper1 {
+	margin-top: 5px;
+}
+
+.sensfrx_tab_nav-tab1 {
+	margin-right: 1px;
+	font-size: 12px; /* Adjust the size as needed */
+	text-decoration: none; /* Remove underline from links */
+}
+
+.sensfrx_tab_nav-tab1.active {
+	color: #000; /* Color for the active tab */
+}
+
+.sensfrx_sub_subtab-content {
+	display: none;
+}
+
+.sensfrx_sub_subtab-content.active {
+	display: block;
+}
+
+#sensfrx_property_secrets_notification {
+	background-color: #DC143C; 
+	color: white;
+}
+
+.sensfrx_configure_here_link {
+	color: white;
+}
+
+/* New Activity Tab */
+
+.sensfrx-general-css-tab-container {
+	display: flex;
+	/* justify-content: space-around; */
+	background-color: #f1f1f1;
+	padding: 10px 0 0;
+	cursor: pointer;
+}
+.sensfrx-css-123-tab {
+	padding: 10px 20px;
+	border: 1px solid #ddd;
+	border-bottom: none;
+	background-color: #e7e7e7;
+	transition: background-color 0.3s;
+}
+.sensfrx-css-123-tab.active {
+	background-color: #fff;
+	border-top: 3px solid #0073aa;
+}
+.sensfrx-css-123-tabtab-content {
+	display: none;
+	/* padding: 5px; */
+	/* border: 1px solid #ddd; */
+}
+.sensfrx-css-123-tabtab-content.active {
+	display: block;
+}
+
+.sensfrx_ato_logs_table-container {
+	/* margin: 20px;
+	overflow-x: auto;
+	border: 1px solid #ddd;
+	border-radius: 5px; */
+	/* overflow-y: auto; 
+	max-height: 400px; */
+}
+
+
+
+.sensfrx_ato_logs_empty-message {
+	color: #ff0000;
+	text-align: center;
+	margin: 20px 0;
+}
+
+/* Whitelist Page */
+
+.sensfrx_myAlert_notification_whitelist_success {
+	width: 30%; 
+	position: absolute; 
+	top: 65px; 
+	right: 45px; 
+	background-color: #45a049; 
+	color: white; 
+	padding: 10px; 
+	text-align: center;
+}
+
+.sensfrx_myAlert_notification_whitelist_failed {
+	width: 30%; 
+	position: absolute; 
+	top: 65px; 
+	right: 45px; 
+	background-color: #DC143C; 
+	color: white; 
+	padding: 10px; 
+	text-align: center;
+}
+
+#sensfrx-whitelist-tab-content-3 {
+	padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 0;
+}
+
+#sensfrx-whitelist-tab-content-2 {
+	padding: 20px 20px 10px 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 0;
+}
+
+#sensfrx-whitelist-tab-content-3 h2 {
+	margin-top: 0;
+}
+
+#sensfrx-whitelist-tab-content-3 label {
+	font-weight: bold;
+	color: #555;
+	display: block;
+	margin-bottom: 8px;
+}
+
+#sensfrx-whitelisted-emails {
+	background-color: #f9f9f9; 
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	color: #333; 
+	line-height: 1.6;
+	margin-top: 10px;
+	word-wrap: break-word; 
+}
+
+#sensfrx-whitelist-tab-content-3 input[type="checkbox"] {
+	margin-right: 10px;
+}
+
+#sensfrx-whitelist-tab-content-3 input[type="email"] {
+	width: 100%;
+	padding: 8px;
+	margin-bottom: 15px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	background-color: #e9ecef;
+	color: #333;
+}
+
+#sensfrx-whitelist-tab-content-3 .button-primary {
+	background-color: #0073aa;
+	border-color: #006799;
+	width: 130px;
+	color: #fff;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	/* font-weight: bold; */
+	cursor: pointer;
+	border-radius: 5px;
+	text-align: center;
+	display: inline-block;
+	transition: background-color 0.3s;
+}
+
+#sensfrx-whitelist-tab-content-3 .button-primary:hover {
+	background-color: #006799;
+}
+
+#sensfrx-whitelist-tab-content-3 p {
+	font-size: 14px;
+	color: #666;
+	margin-bottom: 15px;
+}
+
+#sensfrx_whitelisted_email {
+	max-width: 500px;
+}
+
+/* Transaction Review */
+
+.sensfrx_transaction_review_table_container {
+	margin: auto;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	overflow-y: auto; 
+	max-height: 400px;
+}
+
+/* Table Styling */
+.sensfrx_transaction_review_table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+/* Header Styles */
+.sensfrx_transaction_review_th, .sensfrx_transaction_review_td {
+	padding: 12px 15px;
+	text-align: left;
+	border-bottom: 1px solid #ddd;
+}
+
+/* Button Styles */
+.sensfrx_transaction_review_button {
+	padding: 8px 12px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	font-size: 14px;
+}
+
+/* Approve Button */
+.sensfrx_transaction_review_approve_button {
+	background-color: #28a745;
+	color: white;
+}
+
+/* Reject Button */
+.sensfrx_transaction_review_reject_button {
+	background-color: #dc3545;
+	color: white;
+}
+
+/* Hover Effect */
+.sensfrx_transaction_review_button:hover {
+	opacity: 0.9;
+}
+
+.sensfrx_transaction_review_table tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+#sensfrx-whitelist-tab-content-4 {
+	padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 0;
+}
+
+#sensfrx-whitelist-tab-content-4 h2 {
+	margin-top: 0;
+}
+
+.trans_review_bulk_action_form {
+	display:inline;
+}
+
+.trans_review_bulk-action-container {
+	display: flex;
+	justify-content: space-between;
+	width: 460px;
+}
+
+#trans_review_apply_bulk_action {
+	padding: 5px 12px;
+	border: none;
+	border-radius: 4px;
+	background-color: #0073aa;
+	color: #ffffff;
+	font-size: 14px;
+	cursor: pointer;
+	transition: background-color 0.3s;
+	width: 80px;
+}
+
+#trans_review_bulk_action_123 {
+	width: 160px;
+	padding-left: 5px;
+	border: 1px solid #0073aa;
+	border-radius: 4px;
+	font-size: 14px;
+	background-color: #f7f7f7;
+	cursor: pointer;
+}
+
+#trans_review_search_filter {
+	width: 210px;
+	border: 1px solid #0073aa;
+	border-radius: 4px;
+	font-size: 14px;
+	background-color: #f7f7f7;
+}
+
+.sensfrx_myAlert_notification_whitelist_success_trans_review {
+	width: 30%; 
+	position: absolute; 
+	top: 20px; 
+	right: 45px; 
+	background-color: #45a049; 
+	color: white; 
+	padding: 10px; 
+	text-align: center;
+}
+
+.sensfrx_myAlert_notification_whitelist_failed_trans_review {
+	width: 30%; 
+	position: absolute; 
+	top: 20px; 
+	right: 45px; 
+	background-color: #DC143C; 
+	color: white; 
+	padding: 10px; 
+	text-align: center;
+}

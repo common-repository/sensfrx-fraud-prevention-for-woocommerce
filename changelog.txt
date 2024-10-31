@@ -1,0 +1,41 @@
+*** Sensfrx - Fraud Prevention for WooCommerce Changelog ***
+
+2024-06-12 - version 1.0.0
+* Initial release
+* Added - account takeover, new account, transaction fraud, profile update fraud 
+* Fixed - bug fixes 
+
+2024-06-12 - version 1.0.1
+* Added - Support for manual review
+* Fixed - Transaction Attempt data discrepencies
+
+2024-09-06 - version 1.0.2
+* Fixed - Handling of deny signal on registrations
+
+2024-09-06 - version 1.0.3
+* Fixed - Fixed bugs on deny signal handling on registrations
+
+2024-09-08 - version 1.0.4
+* Added - Activity logs feature
+
+2024-09-09 - version 1.0.5
+* Fixed - Activity logs feature bugs fixed
+* Fixed - Fixed product category information sent with transaction data
+
+2024-09-09 - version 1.0.6
+* Fixed - Bug fixed
+
+2024-09-18 - version 1.0.7
+* Added - Custom rules support added for tags and custom fields
+
+2024-09-24 - version 1.0.8
+* Added - Admin role users whitelisting feature
+* Fixed - Shadow mode performance improved
+* Fixed - Bug fixes in cron jobs
+
+2024-09-24 - version 1.0.9
+* Added - Order Review feature added
+* Fixed - Bug fixes
+
+2024-09-24 - version 1.0.10
+* Fixed - Bug fixes
